@@ -26,7 +26,7 @@ def organise_file(parent_folder, destination_folder):
             #Dividing the files according to there category using their extension
             if isimage(source_path):
                 destination = os.path.join(destination_folder, "Images")
-            elif file_extension in ['.pdf', '.doc', '.docx', '.txt']:
+            elif file_extension in ['.pdf', '.doc', '.docx', '.txt', '.ppt', '.pptx']:
                 destination = os.path.join(destination_folder, "Documents")
             elif file_extension in ['.mp4', '.mkv', '.avi', '.mov']:
                 destination = os.path.join(destination_folder, "Videos")
