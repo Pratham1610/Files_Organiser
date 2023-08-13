@@ -32,7 +32,7 @@ def organise_file(parent_folder, destination_folder):
                 destination = os.path.join(destination_folder, "Videos")
             elif file_extension in ['.mp3', '.mid', '.acc']:
                 destination = os.path.join(destination_folder, "Audios")
-            elif file_extension in ['.zip']:
+            elif file_extension in ['.zip', '.rar', '.war']:
                 destination = os.path.join(destination_folder, "Zipped_file")
             else:
                 destination = os.path.join(destination_folder, "Others")
