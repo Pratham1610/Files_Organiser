@@ -1,5 +1,5 @@
 # Organising the files according to their extension or use when downloaded is a very time-consuming and boring process.
-# Want to manage them in one single click BOOM
+# Want to manage them in one single click
 here comes this Python script 
 just run this Python script on your PC to organize the files by adding the source folder and destination folder absolute path.
 # This Code will organize the files using their category type like 
